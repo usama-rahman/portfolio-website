@@ -9,10 +9,11 @@ const paragraph =
 export default function Home() {
   const words = paragraph.split(" ");
   return (
-    <main>
+    <main id="about">
       {/* <div style={{ height: "100vh" }}></div> */}
       {/* <Paragraph paragraph={paragraph} /> */}
       {/* <div style={{ height: "100vh" }}></div> */}
+      <div style={{ height: "60vh" }}></div>
       <Word paragraph={paragraph} />
       <div style={{ height: "50vh" }}></div>
       {/* <Character paragraph={paragraph} /> */}

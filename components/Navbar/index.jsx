@@ -37,18 +37,18 @@ export default function Navbar() {
 function NavbarFixed() {
   return (
     <nav className="fixed z-10 flex justify-center w-full px-8 py-2 top-4">
-      <ul className="flex items-center text-white/50">
+      <ul className="flex items-center text-black">
         <li className="px-2 text-md">
-          <Link href={"/"}>Projects</Link>
+          <Link href={"#project"}>Projects</Link>
         </li>
         <li className="px-2 text-md">
-          <Link href={"/"}>Blog</Link>
+          <Link href={"#blog"}>Blog</Link>
         </li>
         <li className="px-2 text-md">
-          <Link href={"/"}>About</Link>
+          <Link href={"#about"}>About</Link>
         </li>
         <li className="px-2 text-md">
-          <Link href={"/"}>Contact</Link>
+          <Link href={"/contact"}>Contact</Link>
         </li>
       </ul>
     </nav>
@@ -63,23 +63,24 @@ function NavbarScroll({ isScrolling }) {
       animate={isScrolling ? "animate" : "initial"}
       exit="exit"
       variants={NavAnimations}
+      style={{ backdropFilter: "blur(2px)" }}
       className="fixed z-10 flex justify-between px-4 py-2 rounded-full ts-bg left-1/2 top-10"
     >
       <ul className="flex items-center">
-        <li className="px-2 text-white text-md">
-          <Link href={"/pods"}>Home</Link>
+        <li className="px-2  text-md">
+          <Link href={"/"}>Home</Link>
         </li>
-        <li className="px-2 text-white text-md">
-          <Link href={"/"}>Projects</Link>
+        <li className="px-2 text-black text-md">
+          <Link href={"#project"}>Project</Link>
         </li>
-        <li className="px-2 text-white text-md">
-          <Link href={"/"}>Blog</Link>
+        <li className="px-2 text-black text-md">
+          <Link href={"#about"}>About</Link>
         </li>
-        <li className="px-2 text-white text-md">
-          <Link href={"/"}>About</Link>
+        <li className="px-2 text-black text-md">
+          <Link href={"#blog"}>Blog</Link>
         </li>
-        <li className="px-2 text-white text-md">
-          <Link href={"/"}>Contact</Link>
+        <li className="px-2 text-black text-md">
+          <Link href={"/contact"}>Contact</Link>
         </li>
       </ul>
     </motion.nav>

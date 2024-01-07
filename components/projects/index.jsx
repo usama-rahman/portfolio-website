@@ -11,7 +11,6 @@ export default function Home() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-
     offset: ["start start", "end end"],
   });
 
@@ -25,7 +24,7 @@ export default function Home() {
   });
 
   return (
-    <main ref={container} className={styles.main}>
+    <main id="project" ref={container} className={styles.main}>
       {projects.map((project, i) => {
         const targetScale = 1 - (projects.length - i) * 0.05;
 

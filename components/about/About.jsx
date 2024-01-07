@@ -13,9 +13,9 @@ export default function Home() {
       {/* <div style={{ height: "100vh" }}></div> */}
       {/* <Paragraph paragraph={paragraph} /> */}
       {/* <div style={{ height: "100vh" }}></div> */}
-      <div style={{ height: "60vh" }}></div>
+      {/* <div style={{ height: "60vh" }}></div> */}
       <Word paragraph={paragraph} />
-      <div style={{ height: "50vh" }}></div>
+      <div style={{ height: "20vh" }}></div>
       {/* <Character paragraph={paragraph} /> */}
       {/* <div style={{ height: "100vh" }}></div> */}
     </main>

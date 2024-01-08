@@ -7,6 +7,7 @@ import Rounded from "../Blog/RoundedButton";
 import { useScroll, motion, useTransform, useSpring } from "framer-motion";
 import Magnetic from "../Blog/Magnetic";
 import { useRef } from "react";
+import Link from "next/link";
 
 export default function index() {
   const container = useRef(null);
@@ -22,12 +23,17 @@ export default function index() {
       <div className={styles.body}>
         <div className={styles.title}>
           <span>
+            <div className={styles.imageContainer}>
+              <Image fill={true} alt={"image"} src={`/images/u.png`} />
+            </div>
             <h2>Let&apos;s work</h2>
           </span>
           <h2>Together</h2>
           <motion.div style={{ x }} className={styles.buttonContainer}>
-            <Rounded backgroundColor={"#334BD3"} className={styles.button}>
-              <p>Get in touch</p>
+            <Rounded backgroundColor={"#f2f2f2"} className={styles.button}>
+              <Link href="/contact">
+                <p>Get in touch</p>
+              </Link>
             </Rounded>
           </motion.div>
         </div>
@@ -35,9 +41,9 @@ export default function index() {
           <Rounded>
             <p>rahmanusama390@gmail.com</p>
           </Rounded>
-          <Rounded>
+          {/* <Rounded>
             <p>+31 6 27 84 74 30</p>
-          </Rounded>
+          </Rounded> */}
         </div>
         <div className={styles.info}>
           <div>

@@ -19,7 +19,6 @@ const Card = ({
   const scale = useTransform(progress, range, [1, targetScale]);
   const { scrollYProgress } = useScroll({
     target: container,
-
     offset: ["start end", "start start"],
   });
 
@@ -40,7 +39,7 @@ const Card = ({
             <p>{description}</p>
             <span>
               <a href={url} target="_blank">
-                See more
+                Details
               </a>
               <svg
                 width="22"

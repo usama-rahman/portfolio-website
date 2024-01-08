@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import Image from "next/image";
 import Rounded from "./RoundedButton";
+import Link from "next/link";
 
 const projects = [
   {
@@ -171,7 +172,7 @@ export default function Home() {
           initial="initial"
           animate={active ? "enter" : "closed"}
         >
-          View
+          <Link href="">View</Link>
         </motion.div>
       </>
     </main>

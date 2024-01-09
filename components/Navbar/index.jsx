@@ -37,7 +37,7 @@ export default function Navbar() {
 function NavbarFixed() {
   return (
     <nav className="fixed z-10 flex justify-center w-full px-8 py-2 top-4">
-      <ul className="flex items-center text-black">
+      <ul className="flex items-center text-white">
         <li className="px-2 text-md">
           <Link href={"#project"}>Projects</Link>
         </li>

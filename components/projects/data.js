@@ -5,7 +5,7 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     src: "x.jpg",
     url: "/project/twitter",
-    color: "#AAB8C2",
+    color: "#11A1C1",
   },
   {
     title: "Project - 2",
@@ -13,7 +13,7 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     src: "e.jpg",
     url: "/project/project-2",
-    color: "#977F6D",
+    color: "#336657",
   },
   {
     title: "Project - 3",
@@ -29,6 +29,6 @@ export const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     src: "a.jpg",
     url: "/project/project-2",
-    color: "#977F6D",
+    color: "#505e6e",
   },
 ];

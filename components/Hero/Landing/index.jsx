@@ -49,6 +49,7 @@ export default function Home() {
       className={styles.landing}
     >
       {/* <Image src="/images/background.jpg" fill={true} alt="background" /> */}
+
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
           <p ref={firstText}>Web Designer and Developer -</p>

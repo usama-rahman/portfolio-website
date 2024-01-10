@@ -3,9 +3,6 @@ import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar";
 import About from "@/components/about/About";
 import Projects from "@/components/Projects";
-import Blog from "@/components/Blog";
-import Contact from "./contact/page";
-import Header from "../components/Header";
 
 export default function Home() {
   return (

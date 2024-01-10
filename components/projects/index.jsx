@@ -7,7 +7,7 @@ import { useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
 
-export default function Home() {
+export default function Projects() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,

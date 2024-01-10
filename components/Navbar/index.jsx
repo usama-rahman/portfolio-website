@@ -41,9 +41,9 @@ function NavbarFixed() {
         <li className="px-2 text-md">
           <Link href={"#project"}>Projects</Link>
         </li>
-        <li className="px-2 text-md">
+        {/* <li className="px-2 text-md">
           <Link href={"#blog"}>Blog</Link>
-        </li>
+        </li> */}
         <li className="px-2 text-md">
           <Link href={"#about"}>About</Link>
         </li>
@@ -76,9 +76,9 @@ function NavbarScroll({ isScrolling }) {
         <li className="px-2 text-black text-md">
           <Link href={"#about"}>About</Link>
         </li>
-        <li className="px-2 text-black text-md">
+        {/* <li className="px-2 text-black text-md">
           <Link href={"#blog"}>Blog</Link>
-        </li>
+        </li> */}
         <li className="px-2 text-black text-md">
           <Link href={"/contact"}>Contact</Link>
         </li>

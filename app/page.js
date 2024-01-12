@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar";
 import About from "@/components/about/About";
-import Projects from "@/components/Projects/Projects";
+// import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +32,7 @@ export default function Home() {
       </AnimatePresence>
       <Navbar />
       <Hero />
-      <Projects />
+      {/* <Projects /> */}
       <About />
       <Footer />
     </main>

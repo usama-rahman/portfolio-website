@@ -5,7 +5,7 @@ import Preloader from "../components/Preloader";
 import Footer from "../components/Footer/footer";
 import Hero from "../components/Hero/Hero";
 import About from "../components/about/About";
-import Projects from "../components/project/Projects";
+import Projects from "@/components/Project/Projects";
 import Contact from "../components/Contact/Contact";
 
 export default function Home() {

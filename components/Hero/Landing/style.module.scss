@@ -3,7 +3,6 @@
   display: flex;
   height: 100vh;
   overflow: hidden;
-  // Code pen
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -20,9 +19,6 @@
       background-position: 0% 50%;
     }
   }
-  // img {
-  //   object-fit: cover;
-  // }
 
   .sliderContainer {
     position: absolute;
@@ -37,8 +33,6 @@
   .slider p {
     position: relative;
     margin: 0px;
-    color: rgb(221, 221, 221);
-    font-size: 230px;
     font-weight: 500;
     padding-right: 50px;
   }

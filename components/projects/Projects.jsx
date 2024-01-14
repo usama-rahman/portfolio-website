@@ -1,11 +1,10 @@
 "use client";
 
-import styles from "./projects.module.css";
 import { projects } from "./data";
-import Card from "./Card";
 import { useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
+import Card from "./Card";
 
 export default function Projects() {
   const container = useRef(null);
@@ -24,7 +23,7 @@ export default function Projects() {
   });
 
   return (
-    <main id="project" ref={container} className={styles.main}>
+    <main id="project" ref={container}>
       {projects.map((project, i) => {
         const targetScale = 1 - (projects.length - i) * 0.05;
 

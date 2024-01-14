@@ -1,13 +1,12 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/Preloader";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero/Hero";
-import Navbar from "@/components/Navbar";
-import About from "@/components/about/About";
-import Projects from "@/components/projects/Projects";
+import Footer from "../components/Footer/footer";
+import Hero from "../components/Hero/Hero";
+import About from "../components/About/about";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,10 +29,10 @@ export default function Home() {
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
-      <Navbar />
       <Hero />
       <Projects />
       <About />
+      <Contact />
       <Footer />
     </main>
   );

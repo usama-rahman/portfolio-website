@@ -6,11 +6,15 @@ import React from "react";
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mvoegpnd");
   if (state.succeeded) {
-    return <p>Thank you for getting in touch with me!</p>;
+    return (
+      <p className="text-2xl flex justify-center items-center h-48 ">
+        Thank you for getting in touch with me!
+      </p>
+    );
   }
   return (
     <div className="flex flex-col justify-center items-center h-screen w-full gap-10 ">
-      <h2 className=" text-2xl"> Contact</h2>
+      <h2 className=" text-4xl"> Contact</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
         <label htmlFor="name">Your Name</label>
         <input

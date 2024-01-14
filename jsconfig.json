@@ -1,9 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"]
+//     },
+//     "baseUrl": "app"
+//   },
+//   "include": ["app"]
+// }
 {
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"]
-    },
-    "baseUrl": "app"
-  },
-  "include": ["app"]
+    }
+  }
 }

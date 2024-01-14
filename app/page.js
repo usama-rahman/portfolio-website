@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Preloader from "../components/Preloader";
 import Footer from "../components/Footer/footer";
 import Hero from "../components/Hero/Hero";
-import About from "../components/About/about";
+import About from "../components/About/About";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
 
